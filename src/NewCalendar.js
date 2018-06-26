@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Calendar from 'react-calendar'
+import Calendar from 'react-calendar';
 // import Calendar from 'react-calendar/dist/entry.nostyle'
 import './NewCalendar.css';
 
@@ -8,7 +8,7 @@ class NewCalendar extends Component {
     date: new Date(),
   }
 
-  onChange = date => this.setState({ date })
+  onChange = date => this.setState({ date });
 
   render() {
     return (

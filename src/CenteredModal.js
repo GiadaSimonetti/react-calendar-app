@@ -9,8 +9,8 @@ class CenteredModal extends React.Component {
   };
 
   onOpenModal = () => {
-    this.setState({ open: true });
-  };
+    this.setState({ open: true })
+  }
 
   onCloseModal = () => {
     this.setState({ open: false });
