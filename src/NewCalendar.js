@@ -20,6 +20,11 @@ class NewCalendar extends Component {
         <div className="delivery-message-box">
         <p className="delivery-message"> Delivery dates will change for all upcoming boxes
         </p>
+        <button className="btn btn-calendar btn-cancel"> {"cancel,"}
+        <br />{"don't change"}
+        </button>
+        <button className="btn btn-calendar btn-change"> change date
+        </button>
         </div>
       </div>
     );
