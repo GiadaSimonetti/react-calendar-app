@@ -4,9 +4,12 @@
   width: auto;
 }
 
-.react-calendar__tile {
+.react-calendar__month-view__days__day {
   color: rgb(230, 108, 85);
 }
+
+/* class="react-calendar__tile
+react-calendar__month-view__days__day */
 
 .react-calendar__tile--active {
     background: rgb(230, 108, 85);
@@ -153,4 +156,12 @@ button.react-calendar__tile--active:enabled:focus {
    vertical-align: top;
    box-shadow: 2px 2px 4px #A6A6A6;
    outline:none;
+   cursor: pointer;
+ }
+
+ .btn-cancel{
+   color: #969696;
+   border: 0;
+   box-shadow: none;
+   cursor: auto;
  }

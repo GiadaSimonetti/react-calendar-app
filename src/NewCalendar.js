@@ -18,7 +18,8 @@ class NewCalendar extends Component {
           value={this.state.date}
         />
         <div className="delivery-message-box">
-        <p className="delivery-message"> Delivery dates will change for all upcoming boxes
+        <p className="delivery-message"> Delivery dates will change
+        <br />for all upcoming boxes
         </p>
         <button className="btn btn-calendar btn-cancel"> {"cancel,"}
         <br />{"don't change"}
