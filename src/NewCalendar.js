@@ -17,6 +17,10 @@ class NewCalendar extends Component {
           onChange={this.onChange}
           value={this.state.date}
         />
+        <div className="delivery-message-box">
+        <p className="delivery-message"> Delivery dates will change for all upcoming boxes
+        </p>
+        </div>
       </div>
     );
   }

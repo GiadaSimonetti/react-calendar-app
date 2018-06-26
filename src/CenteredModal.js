@@ -27,14 +27,12 @@ class CenteredModal extends React.Component {
         <div className="modal-wrapper">
           <Modal open={open} onClose={this.onCloseModal} center>
           <div className="modal-header">
-          <h2>Calendar</h2>
           </div>
           <div className="modal-content">
 
           <NewCalendar />
           </div>
           <div className="modal-footer">
-          <p>I am the footer</p>
           </div>
           </Modal>
         </div>
