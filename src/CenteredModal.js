@@ -1,6 +1,8 @@
 import React from 'react';
 import Modal from 'react-responsive-modal';
 
+import './CenteredModal.css'
+
 class CenteredModal extends React.Component {
   state = {
     open: false,
